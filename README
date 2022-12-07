@@ -1,0 +1,8 @@
+## Description
+
+This project is a simple project I created to answer one question I have: which is the fastest way to iterate through `mongodb.find` results.
+For testing that, I've created a free-tier atlas cluster and loaded sample data.
+
+The collection used for testing in my case had around 40k results.
+
+My testing indicates `toArray` is a better approach, but I'm a bit unsure about it. Some more rounds of testing may be needed.
